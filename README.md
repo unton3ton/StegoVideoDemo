@@ -1,5 +1,16 @@
 # Video Steganography / Watermarking Demo Tool
 
+# [StegoVideo.jar](https://disk.yandex.ru/d/mboJ99YLL1UutQ)
+
+```bash
+python3 runjava.py -p embed -m base  
+python3 runjava.py -p extract -m base  
+python3 runjava.py -p psnr -m base  
+
+
+python3 runjava.py -p embed -m random
+```
+
 ## About this project
 
 This is a part of a tool developed by **David Griberman** in 2014 during his Master thesis. 
