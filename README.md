@@ -11,6 +11,15 @@ python3 runjava.py -p psnr -m base
 python3 runjava.py -p embed -m random
 ```
 
+```java
+switch (algorithmId) {
+            case 0: return EmbeddingAlgorithmType.NULL_ALGORITHM;
+            case 1: return EmbeddingAlgorithmType.KAUR_ALGORITHM;
+            case 2: return EmbeddingAlgorithmType.DUBAI_ALGORITHM;
+            case 3: return EmbeddingAlgorithmType.KOTHARI_ALGORITHM;
+            case 4: return EmbeddingAlgorithmType.HAAR_ALGORITHM;
+```
+
 ## About this project
 
 This is a part of a tool developed by **David Griberman** in 2014 during his Master thesis. 
